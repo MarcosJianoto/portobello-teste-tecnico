@@ -42,35 +42,23 @@ Este projeto é um MVP de um sistema interno para gestão de pedidos B2B, desenv
 
 2. Na pasta `/portobello-back`, rode o comando:
 
-```bash
 mvn clean spring-boot:run
 O backend estará disponível em: http://localhost:8080
 
-Frontend
-Na pasta /portobello-front, instale as dependências:
+---
 
-bash
-Copy code
-npm install
+### Frontend
+
+1. Na pasta /portobello-front, instale as dependências:
+
+2. npm install
+
 Rode o frontend:
-
-bash
-Copy code
 npm run dev
-O frontend estará disponível em: http://localhost:5173 (ou outra porta que o Vite indicar).
 
-Possíveis melhorias futuras
-Adicionar autenticação e controle de acesso
+### O frontend estará disponível em: http://localhost:5173 (ou outra porta que o Vite indicar).
 
-Implementar testes unitários e de integração no backend e frontend
-
-Adicionar Docker e docker-compose para facilitar o deploy e desenvolvimento
-
-Melhorar tratamento de erros e feedback no frontend
-
-Adicionar mensageria (RabbitMQ ou AWS SQS) para notificações de novos pedidos
-
-Configurar CI/CD para builds automáticos e deploy
+---
 
 Observações
 Este projeto foi desenvolvido como parte de um teste técnico para a Portobello, focando em entregar um MVP funcional, claro e organizado.
