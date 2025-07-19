@@ -1,6 +1,11 @@
+import type { Pedido } from "../types";
+
+export type PedidoInput = Omit<Pedido, "id" | "orderNumber" | "date">;
+
+
 const API_URL = "http://localhost:8080/order";
 
-export async function createOrder(order) {
+export async function createOrder(order: Pedido) {
   const response = await fetch(API_URL, {
     method: "POST",
     headers: {
@@ -21,7 +26,7 @@ export async function getOrders() {
   return await response.json();
 }
 
-export async function getOrderById(id) {
+export async function getOrderById(id: string) {
   const response = await fetch(`${API_URL}/${id}`);
   if (!response.ok) throw new Error("Pedido não encontrado");
   return await response.json();
