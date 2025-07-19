@@ -60,5 +60,6 @@ npm run dev
 
 ---
 
-Observações
+### Observações
+
 Este projeto foi desenvolvido como parte de um teste técnico para a Portobello, focando em entregar um MVP funcional, claro e organizado.
