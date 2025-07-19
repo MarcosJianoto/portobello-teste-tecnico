@@ -1,17 +1,25 @@
 
 ### Decisões Técnicas e Melhorias Futuras
 
+---
+
 ### Decisões Técnicas
 
 ### Backend
 Tecnologia: Java 17 com Spring Boot
 Escolhi Spring Boot pela facilidade de criar APIs REST robustas e pela popularidade no mercado, além da boa integração com MongoDB.
 
-Banco de Dados: MongoDB
+---
+
+### Banco de Dados: MongoDB
 Usei MongoDB por ser um banco NoSQL flexível, ideal para protótipos rápidos e sistemas que precisam armazenar documentos com estruturas variáveis.
+
+---
 
 ### Estrutura do Projeto: Microsserviço simples
 Optei por uma estrutura leve e modular, facilitando a escalabilidade futura.
+
+---
 
 ### Frontend
 Tecnologia: React com TypeScript e Tailwind CSS
